@@ -28,7 +28,7 @@ end
 #each element has a Hash with 2 items
 def count_elements (array)
   aryHolder = array.uniq
+  aryHolder.each {|ele| ele[:count] = 0}
   binding.pry
-  hashHolder = {}
 
 end
