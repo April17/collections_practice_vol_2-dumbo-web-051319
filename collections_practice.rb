@@ -33,6 +33,7 @@ def count_elements (array)
       hashHolder[key] = value
       hashHolder[:count] = 0
       aryHolder << hashHolder
+      binding.pry
     end
   end
 
