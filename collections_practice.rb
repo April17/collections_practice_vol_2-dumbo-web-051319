@@ -40,3 +40,9 @@ def count_elements (array)
   end
   return aryHolder
 end
+def merged_data (keys,data)
+  merge = keys
+  binding.pry
+  
+  
+end
