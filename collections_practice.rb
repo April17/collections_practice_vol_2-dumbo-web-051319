@@ -34,9 +34,3 @@ def count_elements (array)
   end
   binding.pry
 end
-
-
-
-
-
-
