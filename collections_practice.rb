@@ -43,7 +43,7 @@ end
 def merged_data (keys,data)
   binding.pry
   merge = keys
-  
+
 
 
 end
