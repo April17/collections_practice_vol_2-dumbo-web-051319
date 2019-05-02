@@ -7,5 +7,5 @@ def contain_a (array)
     if ele.include?("a")
       ele
     end
-  end
+  end.compact
 end
