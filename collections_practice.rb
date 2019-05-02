@@ -44,10 +44,10 @@ end
 #2 for loops for finding correct data with first_name
 #insert data into merge
 def merge_data (keys,data)
-  merge = keys 
+  merge = keys
   for i in 0...merge.length
     data[0].each do |key,value|
-      if merge[i][:first_name] == key.to_s 
+      if merge[i][:first_name] == key.to_s
         merge[i].merge(value)
       end
     end
