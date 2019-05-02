@@ -4,7 +4,8 @@ def begins_with_r (array)
 end
 def contain_a (array)
   array.collect do |ele|
-  if ele.include?("a")
-    ele
+    if ele.include?("a")
+      ele
+    end
   end
 end
