@@ -29,6 +29,7 @@ end
 def count_elements (array)
   aryHolder = array
   aryHolder.uniq
+  binding.pry 
   hashHolder = {}
 
 end
