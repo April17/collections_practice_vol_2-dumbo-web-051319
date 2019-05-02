@@ -27,10 +27,10 @@ end
 #make an array list by delete the dubs
 #each element has a Hash with 2 items
 def count_elements (array)
-  binding.pry
   aryHolder = array.uniq
-  binding.pry
-  aryHolder.each {|ele| ele[:count] = 0}
+  aryHolder.each do |ele|
+    ele[:count] = 0
+  end
   binding.pry
   for i in 0...aryHolder.length
     for k in 0...array.length
