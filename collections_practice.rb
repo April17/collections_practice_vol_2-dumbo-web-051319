@@ -40,7 +40,7 @@ def count_elements (array)
   end
   return aryHolder
 end
-#get correct formate which Keys is fine 
+#get correct formate which Keys is fine
 #2 for loops for finding correct data with first_name
 #insert data into merge
 def merged_data (keys,data)
