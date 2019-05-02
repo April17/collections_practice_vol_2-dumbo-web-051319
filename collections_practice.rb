@@ -43,7 +43,7 @@ end
 #get correct formate which Keys is fine
 #2 for loops for finding correct data with first_name
 #insert data into merge
-def merged_data (keys,data)
+def merge_data (keys,data)
   binding.pry
   merge = keys
   return keys
