@@ -58,7 +58,7 @@ def find_cool (array)
   array.collect do |ele|
     ele.each do |key, value|
       if key.to_s == "cool" || value == "cool"
-        return ele
+        ele
       end
     end
   end
