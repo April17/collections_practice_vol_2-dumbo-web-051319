@@ -31,6 +31,7 @@ def count_elements (array)
     ele.each do |key, value|
       hashHolder[key] = value
       hashHolder[:count] = 0
+      aryHolder << hashHolder
     end
   end
   binding.pry
