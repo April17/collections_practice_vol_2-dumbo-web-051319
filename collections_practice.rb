@@ -47,9 +47,9 @@ def merge_data (keys,data)
   merge = keys
   for i in 0...merge.length
     data[0].each do |key,value|
-      binding.pry
       if merge[i][:first_name] == key.to_s
         merge[i].merge(value)
+        binding.pry
       end
     end
   end
