@@ -46,11 +46,10 @@ end
 def merge_data (keys,data)
   merge = keys
   for i in 0...merge.length
-    data[0].each do |key,value|
+    data[0].collect do |key,value|
       if merge[i][:first_name] == key.to_s
-        merge = merge[i].merge(value)
+        merge[i].merge(value)
       end
     end
   end
-  return merge
 end
