@@ -23,3 +23,20 @@ def remove_non_strings (array)
     end
   end.compact
 end
+def count_elements (array)
+  aryHolder = []
+  hashHolder = {}
+  array.each do |ele|
+    ele.each do |key, value|
+      hashHolder[key] = value
+      hashHolder[:count] = 0
+    end
+  end
+  binding.pry
+end
+
+
+
+
+
+
