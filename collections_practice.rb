@@ -31,7 +31,7 @@ def count_elements (array)
   aryHolder = array.uniq
   binding.pry
   aryHolder.each {|ele| ele[:count] = 0}
-
+  binding.pry
   for i in 0...aryHolder.length
     for k in 0...array.length
       if aryHolder[i].include? (array[k])
