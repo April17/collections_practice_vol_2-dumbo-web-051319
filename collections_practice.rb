@@ -55,11 +55,13 @@ def merge_data (keys,data)
   return merge
 end
 def find_cool (array)
+  ary = []
   array.collect do |ele|
     ele.each do |key, value|
       if key.to_s == "cool" || value == "cool"
-        ele
+        ary << ele
       end
     end
   end
+  return ary
 end
