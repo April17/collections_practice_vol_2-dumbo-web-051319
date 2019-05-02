@@ -9,3 +9,10 @@ def contain_a (array)
     end
   end.compact
 end
+def first_wa (array)
+  array.collect do |ele|
+    if ele.to_s[0..1] == "wa"
+      return ele
+    end
+  end
+end
