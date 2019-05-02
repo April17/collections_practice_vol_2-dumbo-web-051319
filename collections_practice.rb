@@ -29,10 +29,11 @@ def count_elements (array)
   hashHolder = {}
   array.each do |ele|
     ele.each do |key, value|
+      binding.pry
       hashHolder[key] = value
       hashHolder[:count] = 0
       aryHolder << hashHolder
     end
   end
-  binding.pry
+  
 end
