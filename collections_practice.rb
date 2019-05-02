@@ -21,5 +21,5 @@ def remove_non_strings (array)
     if ele.is_a? String
       ele
     end
-  end
+  end.compact
 end
