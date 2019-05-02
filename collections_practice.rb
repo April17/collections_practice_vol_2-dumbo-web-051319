@@ -41,8 +41,9 @@ def count_elements (array)
   return aryHolder
 end
 def merged_data (keys,data)
-  merge = keys
   binding.pry
+  merge = keys
+  
 
 
 end
