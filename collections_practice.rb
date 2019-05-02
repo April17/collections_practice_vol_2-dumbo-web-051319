@@ -24,17 +24,11 @@ def remove_non_strings (array)
     end
   end.compact
 end
+#make an array list by delete the dubs
+#each element has a Hash with 2 items
 def count_elements (array)
-  aryHolder = []
+  aryHolder = array
+  aryHolder.uniq
   hashHolder = {}
-  array.each do |ele|
-    ele.each do |key, value|
-      binding.pry
-      hashHolder[key] = value
-      hashHolder[:count] = 0
-      aryHolder << hashHolder
-      binding.pry
-    end
-  end
 
 end
