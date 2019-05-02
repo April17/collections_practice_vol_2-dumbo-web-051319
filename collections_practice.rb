@@ -35,5 +35,5 @@ def count_elements (array)
       aryHolder << hashHolder
     end
   end
-  
+
 end
