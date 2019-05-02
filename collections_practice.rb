@@ -27,8 +27,7 @@ end
 #make an array list by delete the dubs
 #each element has a Hash with 2 items
 def count_elements (array)
-  aryHolder = array
-  aryHolder.uniq
+  aryHolder = array.uniq
   binding.pry
   hashHolder = {}
 
