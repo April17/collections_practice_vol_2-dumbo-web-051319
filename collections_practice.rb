@@ -75,5 +75,5 @@ def organized_schools (hash)
     end
   end
   binding.pry
-  
+
 end
