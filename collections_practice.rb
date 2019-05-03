@@ -74,6 +74,10 @@ def organize_schools (hash)
       org[state] = []
     end
   end
-  binding.pry
-
+  hash.each do |key, value|
+    value.each do |loc, state|
+      org[state] << key.to_s
+    end
+  end
+  return org
 end
