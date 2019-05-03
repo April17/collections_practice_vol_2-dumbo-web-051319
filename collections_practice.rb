@@ -67,7 +67,7 @@ def find_cool (array)
 end
 #build {location => []}
 #check and push in []
-def organized_schools (hash)
+def organize_schools (hash)
   org = {}
   hash.each do |key, value|
     value.each do |loc, state|
